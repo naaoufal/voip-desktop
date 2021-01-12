@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home!</title>
+    <link rel="stylesheet" href="index.css" >
+  </head>
+  <body>
+    <center>
+      <div>
+      </div>
+
+      <div id=""><br>
+          <h1>Making a Call :</h1><br>
+          <div id=""></div>
+      </div>
+
+  <div id="">
+      <form name="form" method="POST" action="">
+          <input type="text" id="number" placeholder="Enter Number Phone ..." name="input">
+          <br>
+          <input type="button" value="00" onclick="document.form.input.value+='00'" id="numbers">
+          <input type="button" value="1" onclick="document.form.input.value+='1'" id="numbers">
+          <input type="button" value="2" onclick="document.form.input.value+='2'" id="numbers">
+          <input type="button" value="3" onclick="document.form.input.value+='3'" id="numbers">
+          <input type="button" value="4" onclick="document.form.input.value+='4'" id="numbers">
+          <input type="button" value="5" onclick="document.form.input.value+='5'" id="numbers">
+          <input type="button" value="6" onclick="document.form.input.value+='6'" id="numbers">
+          <input type="button" value="7" onclick="document.form.input.value+='7'" id="numbers">
+          <input type="button" value="8" onclick="document.form.input.value+='8'" id="numbers">
+          <input type="button" value="9" onclick="document.form.input.value+='9'" id="numbers">
+          <input type="button" value="0" onclick="document.form.input.value+='0'" id="numbers">
+          <input type="button" value="&larr;" id="delete_something"onclick="document.form.input.value=document.form.input.value.substring(0,document.form.input.value.length*1 -1)">
+
+          
+          <br>
+          <input type="button" value="Q" onclick="document.form.input.value+='q'">
+          <input type="button" value="W" onclick="document.form.input.value+='w'">
+          <input type="button" value="E" onclick="document.form.input.value+='e'">
+          <input type="button" value="R" onclick="document.form.input.value+='r'">
+          <input type="button" value="T" onclick="document.form.input.value+='t'">
+          <input type="button" value="Y" onclick="document.form.input.value+='y'">
+          <input type="button" value="U" onclick="document.form.input.value+='u'">
+          <input type="button" value="I" onclick="document.form.input.value+='i'">
+          <input type="button" value="O" onclick="document.form.input.value+='o'">
+          <input type="button" value="P" onclick="document.form.input.value+='p'">
+          <br>
+          <input type="button" value="A" onclick="document.form.input.value+='a'">
+          <input type="button" value="S" onclick="document.form.input.value+='s'">
+          <input type="button" value="D" onclick="document.form.input.value+='d'">
+          <input type="button" value="F" onclick="document.form.input.value+='f'">
+          <input type="button" value="G" onclick="document.form.input.value+='g'">
+          <input type="button" value="H" onclick="document.form.input.value+='h'">
+          <input type="button" value="J" onclick="document.form.input.value+='j'">
+          <input type="button" value="K" onclick="document.form.input.value+='k'">
+          <input type="button" value="L" onclick="document.form.input.value+='l'">
+          <input type="button" value="?" onclick="document.form.input.value+='?'" id="opertion">
+          <br>
+          <input type="button" value="<" onclick="document.form.input.value+='<'" id="opertion" title="start HTML tag">
+          <input type="button" value="Z" onclick="document.form.input.value+='z'">
+          <input type="button" value="X" onclick="document.form.input.value+='x'">
+          <input type="button" value="C" onclick="document.form.input.value+='c'">
+          <input type="button" value="V" onclick="document.form.input.value+='v'">
+          <input type="button" value="B" onclick="document.form.input.value+='b'">
+          <input type="button" value="N" onclick="document.form.input.value+='n'">
+          <input type="button" value="M" onclick="document.form.input.value+='m'">
+          <input type="button" value=">" onclick="document.form.input.value+='>'" id="opertion" title="close HTML tag">
+          <br>
+          <!-- <input type="button" value="=" id="equal" onclick="document.form.input.value=eval(document.form.input.value)"> -->
+          <input id="btnCall" type="button" onclick="callNum();" value="Call">
+      </form>
+  </div><br>
+    <i><a id="btn" href="history.html">History Page</a></i>
+    <i><a id="btn" href="calls.html">Contact Page</a></i>
+    <i><a id="btn" href="addnumber.html">Add Contact</a></i>
+</center>
+  </body>
+  <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="script.js"></script>
+</html>
