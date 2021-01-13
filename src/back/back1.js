@@ -1,5 +1,4 @@
 const { fchown } = require("fs");
-
 var remote = window.require('electron').remote;
 const fs = window.require('fs');
 var lineReader = window.require('line-reader');
